@@ -1,5 +1,13 @@
 name: Deploy .NET isolated Azure Function App
 
+# This file is what is going to tell GitHub actions to create our CI/CD pipeline.
+# When we do a certain action, the pipeline is ran.
+
+# This grabs our API (which is meant to host our JSON information) and deploy it to our Azure function.
+
+# On workflow_dispatchwe will have a manual way to run the workflow.
+# And whenever we make a push to the main branch.
+
 on:
   workflow_dispatch:
   push:

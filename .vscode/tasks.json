@@ -1,4 +1,7 @@
 {
+
+	// This configures our other types of tasks
+	
 	"version": "2.0.0",
 	"tasks": [
 		{

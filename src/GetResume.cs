@@ -3,6 +3,9 @@ using Microsoft.Azure.Functions.Worker;
 using Microsoft.Azure.Functions.Worker.Http;
 using Microsoft.Extensions.Logging;
 
+
+//This is where the Azure function lives
+
 namespace Company.Function
 {
     public class GetResume
